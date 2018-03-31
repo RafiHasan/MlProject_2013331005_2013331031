@@ -23,7 +23,7 @@ from sklearn.linear_model import RidgeCV
 from sklearn.linear_model import LassoLarsCV
 from sklearn.linear_model import LassoCV
 
-path =r'C:\Users\Rafi\Desktop\theses\2012' # use your path
+path =r'2012' # use your path
 allFiles = glob.glob(path + "/*.csv")
 mlist=[]
 dt=[]
@@ -37,7 +37,7 @@ for f in allFiles:
         for o in reader:
             o[1]=dat
             mlist.append(o)
-path =r'C:\Users\Rafi\Desktop\theses\2013' # use your path
+path =r'2013' # use your path
 allFiles = glob.glob(path + "/*.csv")
 for f in allFiles:
     with open(f, 'r') as f1:
@@ -47,7 +47,7 @@ for f in allFiles:
         for o in reader:
             o[1]=dat
             mlist.append(o)
-path =r'C:\Users\Rafi\Desktop\theses\2014' # use your path
+path =r'2014' # use your path
 allFiles = glob.glob(path + "/*.csv")
 for f in allFiles:
     with open(f, 'r') as f1:
@@ -57,7 +57,7 @@ for f in allFiles:
         for o in reader:
             o[1]=dat            
             mlist.append(o)
-path =r'C:\Users\Rafi\Desktop\theses\2015' # use your path
+path =r'2015' # use your path
 allFiles = glob.glob(path + "/*.csv")
 for f in allFiles:
     with open(f, 'r') as f1:

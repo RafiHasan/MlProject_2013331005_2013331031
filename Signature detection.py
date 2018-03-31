@@ -10,7 +10,6 @@ import numpy as np
 import os
 from PIL import Image
 from sklearn.cross_validation import train_test_split
-os.chdir("C:\\Users\\Rafi\\Desktop\\ml_lab");
 
 m,n = 50,50
 
